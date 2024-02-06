@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713022ec-dc26-4147-a180-ae996d81edfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/CalculAreesAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/CalculNotes_FerrioTorres_Marga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/PrediccióPersonaAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/TransformarNotaEnParaulaAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/LlegirEnters/LlegirEnters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/LlegirReals/LlegirReals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/Patrons/Patrons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreTemperatures/RegistreTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/SNombreMesGran/SNombreMesGran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/SNombreMesGran/SegonMesGranAmbFuncions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/SNombreMesGran/SegonNMesGran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/SegonNombreAmbFuncions/AmbFuncionsSegonNombreMesGran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/SegonNombreMesGran/SegonNMesGran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/CalculNotesAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/CalculAreesMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/LlegirDades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Paralelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Quadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Rombe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Trapezi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/CalculArrayReals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotesMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/CalculNotes_FerrioTorres_Marga.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/PrediccióPersonaAmbFuncions_FerriolTorres_Marga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/PrediccióPersonaAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -62,13 +64,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/margaferrioldam/Desktop/CODING_WITH_MARGA/src"
+    "last_opened_file_path": "/Users/margaferrioldam/Desktop/CODING_WITH_MARGA/src",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="elseif" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elseif" />
+      <module name="CODING_WITH_MARGA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,11 +99,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706547266612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Activitats UF2">
+      <created>1706556152628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706556152628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Activitats UF2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activitats UF2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CODING_WITH_MARGA$CalculAreesAmbFuncions_FerriolTorres_Marga.ic" NAME="CalculAreesAmbFuncions_FerriolTorres_Marga Coverage Results" MODIFIED="1706874972012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UF2.ActivitatsPerEntregar.*</FILTER>
+    </SUITE>
   </component>
 </project>

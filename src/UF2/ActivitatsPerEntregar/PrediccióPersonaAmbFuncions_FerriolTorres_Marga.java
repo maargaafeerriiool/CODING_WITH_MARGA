@@ -36,100 +36,142 @@ public class PrediccióPersonaAmbFuncions_FerriolTorres_Marga {
 
     public static double calcularNumSort(String mes, int edat) {
         double numSort = 0;
-        if (mes.equalsIgnoreCase("GENER")) {
+        if (mes.equalsIgnoreCase("Gener")) {
             numSort = edat * 3 / 2;
-        } else if (mes.equalsIgnoreCase("FEBRER")) {
+        }
+        else if (mes.equalsIgnoreCase("Febrer")) {
             numSort = edat - 4;
-        } else if (mes.equalsIgnoreCase("MARÇ")) {
+        }
+        else if (mes.equalsIgnoreCase("Març")) {
             numSort = edat / 2;
-        } else if (mes.equalsIgnoreCase("ABRIL")) {
+        }
+        else if (mes.equalsIgnoreCase("Abril")) {
             numSort = edat % 4;
-        } else if (mes.equalsIgnoreCase("MAIG")) {
+        }
+        else if (mes.equalsIgnoreCase("Maig")) {
             numSort = edat * 3 / 6;
-        } else if (mes.equalsIgnoreCase("JUNY")) {
+        }
+        else if (mes.equalsIgnoreCase("Juny")) {
             numSort = edat + edat;
-        } else if (mes.equalsIgnoreCase("JULIOL")) {
+        }
+        else if (mes.equalsIgnoreCase("Juliol")) {
             numSort = edat * edat / 5;
-        } else if (mes.equalsIgnoreCase("AGOST")) {
+        }
+        else if (mes.equalsIgnoreCase("Agost")) {
             numSort = edat * 0.5 * edat;
-        } else if (mes.equalsIgnoreCase("SETEMBRE")) {
+        }
+        else if (mes.equalsIgnoreCase("Setembre")) {
             numSort = edat / edat;
-        } else if (mes.equalsIgnoreCase("OCTUBRE")) {
+        }
+        else if (mes.equalsIgnoreCase("Octubre")) {
             numSort = edat * 4 / 3;
-        } else if (mes.equalsIgnoreCase("NOVEMBRE")) {
+        }
+        else if (mes.equalsIgnoreCase("Novembre")) {
             numSort = edat % 2 + 23;
-        } else if (mes.equalsIgnoreCase("DESEMBRE")) {
+        }
+        else if (mes.equalsIgnoreCase("Desembre")) {
             numSort = (edat + edat) / 2;
         }
         return numSort;
     }
 
-    public static String determinarEquipFutbol(String mes) {
-        switch (mes.toUpperCase()) {
-            case "GENER":
-                return "FC BAYERN";
-            case "FEBRER":
-                return "ATLÈTIC DE MADRID";
-            case "MARÇ":
-                return "CHELSEA";
-            case "ABRIL":
-                return "MANCHESTER CITY";
-            case "MAIG":
-                return "LIVERPOOL";
-            case "JUNY":
-                return "REAL MADRID";
-            case "JULIOL":
-                return "BVB 09";
-            case "AGOST":
-                return "BARÇA";
-            case "SETEMBRE":
-                return "JUVENTUS";
-            case "OCTUBRE":
-                return "PSG";
-            case "NOVEMBRE":
-                return "SEVILLA";
-            case "DESEMBRE":
-                return "MANCHESTER UNITED";
-            default:
-                return "";
+    public static String determinarEquipFutbol(String mesNaixement) {
+        String equipFutbol = "";
+
+        if (mesNaixement.equalsIgnoreCase("Gener")) {
+            equipFutbol = "Bayern de Munich";
         }
+        else if (mesNaixement.equalsIgnoreCase("Febrer")) {
+            equipFutbol = "Atlético de Madrid";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Març")) {
+            equipFutbol = "Chelsea";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Abril")) {
+            equipFutbol = "Manchester City";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Maig")) {
+            equipFutbol = "Liverpool";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Juny")) {
+            equipFutbol = "Real Madrid";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Juliol")) {
+            equipFutbol = "BVB";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Agost")) {
+            equipFutbol = "FCB";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Setembre")) {
+            equipFutbol = "Juve";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Octubre")) {
+            equipFutbol = "PSG";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Novembre")) {
+            equipFutbol = "Sevilla CF";
+        }
+        else if (mesNaixement.equalsIgnoreCase("Desembre")) {
+            equipFutbol = "Manchester United";
+        }
+        else {
+            equipFutbol = "No tinc equip de fútbol perquè m'he equivocat escrivint el meu mes d'aniversari";
+        }
+
+        return equipFutbol;
     }
 
     public static String identificarLlenguatgeProgramacio(String mes) {
-        switch (mes.toUpperCase()) {
-            case "GENER":
-                return "C++";
-            case "FEBRER":
-                return "PYTHON";
-            case "MARÇ":
-                return "JAVASCRIPT";
-            case "ABRIL":
-                return "NODE.JS";
-            case "MAIG":
-                return "REACT";
-            case "JUNY":
-                return "C#";
-            case "JULIOL":
-                return "SWIFT";
-            case "AGOST":
-                return "JAVA";
-            case "SETEMBRE":
-                return "PHP";
-            case "OCTUBRE":
-                return "R";
-            case "NOVEMBRE":
-                return "GO";
-            case "DESEMBRE":
-                return "RUBY";
-            default:
-                return "";
+        String llenguatgeProgramacio = "";
+
+        if (mes.equalsIgnoreCase("Gener")) {
+            llenguatgeProgramacio = "C++";
         }
+        else if (mes.equalsIgnoreCase("Febrer")) {
+            llenguatgeProgramacio = "Python";
+        }
+        else if (mes.equalsIgnoreCase("Març")) {
+            llenguatgeProgramacio = "JavaScript";
+        }
+        else if (mes.equalsIgnoreCase("Abril")) {
+            llenguatgeProgramacio = "Node.js";
+        }
+        else if (mes.equalsIgnoreCase("Maig")) {
+            llenguatgeProgramacio = "React";
+        }
+        else if (mes.equalsIgnoreCase("Juny")) {
+            llenguatgeProgramacio = "C#";
+        }
+        else if (mes.equalsIgnoreCase("Juliol")) {
+            llenguatgeProgramacio = "Swift";
+        }
+        else if (mes.equalsIgnoreCase("Agost")) {
+            llenguatgeProgramacio = "Java";
+        }
+        else if (mes.equalsIgnoreCase("Setembre")) {
+            llenguatgeProgramacio = "PHP";
+        }
+        else if (mes.equalsIgnoreCase("Octubre")) {
+            llenguatgeProgramacio = "R";
+        }
+        else if (mes.equalsIgnoreCase("Novembre")) {
+            llenguatgeProgramacio = "Go";
+        }
+        else if (mes.equalsIgnoreCase("Desembre")) {
+            llenguatgeProgramacio = "Ruby";
+        }
+        else {
+            llenguatgeProgramacio = "No tinc llenguatge de programació preferit perquè m'he equivocat escrivint el meu mes d'aniversari";
+        }
+
+        return llenguatgeProgramacio;
     }
 
     public static void mostrarResultats(String nom, double numSort, String equipFutbol, String llenguatgeProgramacio) {
         if (equipFutbol.equals("")) {
             System.out.println("IMPORTANT! \nMes no vàlid. Si us plau, introdueix un mes vàlid.");
-        } else {
+        }
+        else {
             System.out.println("Un plaer conèixer-te " + nom + ". Amb les dades que m'has donat, mira què he arribat a saber de tu...\n>>> El teu número de la sort és el: " + numSort + "!\n>>> El teu equip de futbol preferit, encara que no ho diguis en veu alta, és el: " + equipFutbol + "\n>>> El teu llenguatge de programació més estimat serà: " + llenguatgeProgramacio + "\nTorna quan vulguis!");
         }
     }
