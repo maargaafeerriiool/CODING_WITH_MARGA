@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713022ec-dc26-4147-a180-ae996d81edfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/CalculNotesAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/CalculAreesMod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Cercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/LlegirDades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Paralelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Quadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Rombe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Trapezi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/CalculArrayReals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotesMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/CalculNotes_FerrioTorres_Marga.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/PrediccióPersonaAmbFuncions_FerriolTorres_Marga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/PrediccióPersonaAmbFuncions_FerriolTorres_Marga.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/margaferrioldam/Desktop/CODING_WITH_MARGA/src",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/margaferrioldam/Desktop/CODING_WITH_MARGA/src&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -106,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706556152628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Activitats UF2">
+      <created>1707233539625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707233539625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
