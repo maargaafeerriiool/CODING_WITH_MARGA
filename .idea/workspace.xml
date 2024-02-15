@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713022ec-dc26-4147-a180-ae996d81edfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantCurs/Curs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantCurs/Estudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantCurs/ProgramaPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/CalcularArees/CalculAreesMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/CalculAreesMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/CalcularArees/LlegirDades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/CalcularArees/Paralelogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/CalcularArees/Parallelogram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707233539625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Activitats UF2">
+      <created>1707413667931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707413667931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

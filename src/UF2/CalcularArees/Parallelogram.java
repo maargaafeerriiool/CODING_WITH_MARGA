@@ -1,9 +1,7 @@
 package UF2.CalcularArees;
 
-import java.util.Scanner;
-
-public class Paralelogram {
-    public static double areaParalelogram() {
+public class Parallelogram {
+    public static double areaParallelogram() {
         double b = 45.0;
         double h = 13.0;
         return b * h;

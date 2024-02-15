@@ -1,7 +1,5 @@
 package UF2.CalcularArees;
 
-import UF2.RegistreNotes.CalculArrayReals;
-
 import java.util.Scanner;
 
 public class CalculAreesMod {
@@ -25,7 +23,7 @@ public class CalculAreesMod {
         Rectangle calcularRectangle = new Rectangle();
         Trapezi calcularTrapezi = new Trapezi();
         Rombe calcularRombe = new Rombe();
-        Paralelogram calcularParalelogram = new Paralelogram();
+        Parallelogram calcularParallelogram = new Parallelogram();
         Cercle calcularCercle = new Cercle();
 
         if (figura.equalsIgnoreCase("TRIANGLE")) {
@@ -43,8 +41,8 @@ public class CalculAreesMod {
         else if (figura.equalsIgnoreCase("ROMBE")) {
             area = calcularRombe.areaRombe();
         }
-        else if (figura.equalsIgnoreCase("PARALELOGRAM")) {
-            area = calcularParalelogram.areaParalelogram();
+        else if (figura.equalsIgnoreCase("PARALLELOGRAM")) {
+            area = calcularParallelogram.areaParallelogram();
         }
         else if (figura.equalsIgnoreCase("CERCLE")) {
             area = calcularCercle.areaCercle(scanner);
