@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713022ec-dc26-4147-a180-ae996d81edfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UF2/ActivitatsPerEntregar/PrediccioPersona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Cita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Pagina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Creacio/Cercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Creacio/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Creacio/Quadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Creacio/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Creacio/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/Encarrec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/Peticio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/Sucursal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/TipusProducte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/Transportista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Persona/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/EstudiantCurs/Curs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/EstudiantCurs/Curs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/EstudiantCurs/Estudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/EstudiantCurs/Estudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/EstudiantCurs/ProgramaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/EstudiantCurs/ProgramaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/Empresa/hola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/Empresa/TipusProducte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF4/Empresa/TipusProducte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.hola">
     <configuration name="elseif" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="elseif" />
       <module name="CODING_WITH_MARGA" />
@@ -86,6 +67,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UF4.Empresa.hola" />
+      <module name="CODING_WITH_MARGA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UF4.Empresa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hola" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708025571894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Activitats UF2">
+      <created>1708976140046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708976140046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

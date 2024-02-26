@@ -1,5 +1,7 @@
 package UF4.Empresa;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class TipusProducte {
     private String nom;
     private int codiIdentificador;
@@ -46,6 +48,7 @@ public class TipusProducte {
     public void setEstoc(int estoc) {
         this.estoc = estoc;
     }
+
 
     public boolean isaLaVenda() {
         return aLaVenda;
